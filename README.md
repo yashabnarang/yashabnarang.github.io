@@ -1,2 +1,2 @@
 # A Portfolio
-[Visit here](https://yashabnarang.github.io/)
+[Visit here](https://yashab.com/)
