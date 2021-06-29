@@ -31,31 +31,48 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
     p {
-        color: #D9B8C4;
+        color: #a8b2d1;
     }
 
     body, h1, h2, h3, h5, h6 {
-        color: #1d7874;
+        color: #64ffda;
         font-family: "Poppins", sans-serif;
     }
 
     /* h4 = welcome message header */
     h4 {
         font-size: 100px;
-        color: #1d7874;
-        font-family: "Kanit", sans-serif;
+        color: #64ffda;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
     }
 
-    /* Images are Rounded*/
+    /* Images are Rounded */
     img {
         visibility: hidden;
         border-radius: 60%;
     }
 
+    /* Highlighted Links */
+    a {
+        color: #64ffda;
+    }
+
+    /* Highlighted Skills */
+    mark {
+        background-color: transparent;
+        color: #e6f1ff;
+    }
+
+    /* Email Class */
+    .emailid {
+        font-size: 24px;
+    }
+
     /* Wecloming Loader */
     .loader {
         position: fixed;
-        background-color: #00120b;
+        background-color: #020c1b;
         opacity: 1;
         height: 100%;
         width: 100%;
@@ -72,9 +89,9 @@
         width: 120px;
         background: #222;
     }
-    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    /* Add a left margin to the "page content" that matches the width of the sidebar (25px) */
     #main {
-        margin-left: 120px
+        margin-left: 25px
     }
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {
@@ -84,7 +101,7 @@
     }
 </style>
 <!-- Define Background Color Here!-->
-<body bgcolor="#00120b">
+<body bgcolor="#0a192f">
     <!-- Page Intro -->
     <div class="loader">
         <h4><center>Welcome</center></h4>
@@ -101,7 +118,7 @@
 
         <!-- About Section -->
         <div class="w3-content w3-justify w3-text-grey w3-padding-12" id="about">
-            <h2>Yashab Narang</h2>
+            <h3>About Me</h3>
             <hr style="width:200px" class="w3-opacity">
             <p>
                 Born and Raised in Ventura, CA. Currently studying Computer Science at
@@ -113,47 +130,44 @@
             <hr style="width:200px" class="w3-opacity">
             <p><b>Yardi Systems Inc. | Summer Internships 2017/2018</b></p>
             <p>
-                Got hands on experience with Relational Databases in the work force while
+                Got hands on experience with <mark>Relational Databases</mark> in the work force while
                 working on <i>Yardi Marketplace</i> and <i>Vendor Cafe</i>. Fixed and
-                improved issues brought up by employees and clients with integrated SQL
-                queries within XML files.
+                improved issues brought up by employees and clients with integrated <mark>MySQL
+                queries</mark> within <mark>XML</mark> files.
             </p>
             <p>—</p>
             <p><b><a href="https://linktr.ee/memecitypins">Meme City Pins</a> | Since 2017</b></p>
             <p>
                 Small business I started to get more experience with design and marketing.
-                Since I started, I have learned how to use <i>Adobe Illustrator</i>, improved upon
-                my <i>Adobe Photoshop</i> skills, contacted manufacturers, and sold enamel pins and
+                Since I started, I have learned how to use <mark>Adobe Illustrator</mark>, improved upon
+                my <mark>Adobe Photoshop</mark> skills, contacted manufacturers, and sold enamel pins and
                 stickers on my <i>Etsy</i> shop.
             </p>
             <h3 class="w3-padding-16">Projects</h3>
             <hr style="width:200px" class="w3-opacity">
             <p><b><a href="https://github.com/yashabnarang/Crossy-Road-UE4">Crossy Road</a> | April 2020</b></p>
             <p>
-              Crossy Road Clone. It is a nearly a complete version of the game. Missing Railroad Track Assets, Eagle, and Autoscrolling.
-              Includes FinalVersion, as well as the 3 checkpoints divided into separate folders.
+              A clone of the popular mobile game <i>Crossy Road</i>. It was made using <mark>Unreal Engine 4</mark> and <mark>Blueprint Visual Scripting</mark>. It is a game with a single goal in mind, go as far as you can on a procedurally generated map of obstacles. The 3D assets were created in <mark>MagicaVoxel</mark>.
             </p>
             <p>—</p>
             <p><b><a href="https://github.com/yashabnarang/pacman-portal-pygame">Pac-Man Portal</a> | March 2020</b></p>
             <p>
               A spin on the classic Pac-man game with the ability to make portals along
               the walls in the game and teleport from portal to portal. I used Adobe Photoshop
-              and Adobe Illustrator to make the sprites, Audacity to edit audio files, and Pygame
-              to make up the game. Check it out in my GitHub!
+              and Adobe Illustrator to make the sprites, <mark>Audacity</mark> to edit audio files, and <mark>Pygame for Python</mark> to make up the game. Check it out in my GitHub!
             </p>
             <p>—</p>
             <p><b><a href="https://devpost.com/software/pocket-sims">Pocket Sims</a> | January 2018</b></p>
             <p>
                 Concept Augmented Reality App using physical cards to emulate graphics on a screen
-                to expand upon the player's reality. The app was build using Unity 3D, C#, and Vuphoria
-                 API. This project placed in the Top 8 at UCSB's SB Hacks IV.
+                to expand upon the player's reality. The app was build using <mark>Unity, C#, and Vuphoria API</mark>. This project placed in the Top 8 at UCSB's SB Hacks IV.
             </p>
             <p>—</p>
             <p><b><a href="https://play.google.com/store/apps/details?id=com.yuvio100.spaceboi&hl=en_US">Spaceboi Runaway: Asteroid Getaway</a> | CSULB Beach Hacks Spring 2017</b></p>
             <p>
                 A fun little game that takes the player on a thrilling experience flying
                 through a raging asteroid belt. The player's goal is to collect as many
-                coins as possible while dodging all asteroids! Available to check out on
+                coins as possible while dodging all asteroids! Developed in <mark>Unity</mark>. Available to check out on
                 the Google Play Store!
             </p>
             <p>—</p>
@@ -161,10 +175,12 @@
 
         <!-- Contact Section -->
         <div class="w3-padding-16 w3-content w3-text-grey" id="contact">
-            <h2 class=" w3-large">Contact Me</h2>
-            <hr style="width:120px" class="w3-opacity">
+            <h3>Contact Me</h3>
+            <hr style="width:200px" class="w3-opacity">
             <div class="w3-section">
-                <p> Temporarily Disabled</p>
+                <div class="emailid">
+                    <a href="mailto:ynara50@gmail.com">Let's Talk!</a>
+                </div>
             </div><br>
 
             <!-- Footer -->
