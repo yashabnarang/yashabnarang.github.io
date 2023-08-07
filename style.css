@@ -1,0 +1,57 @@
+p {
+    color: #a8b2d1;
+}
+
+body, h1, h2, h3, h5, h6 {
+    color: #64ffda;
+    font-family: "Inter", sans-serif;
+}
+
+/* h4 = welcome message header */
+h4 {
+    font-size: 100px;
+    color: #64ffda;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+/* Images are Rounded */
+img {
+    visibility: hidden;
+    border-radius: 60%;
+}
+
+/* Highlighted Links */
+a {
+    color: #64ffda;
+}
+
+/* Highlighted Skills */
+mark {
+    background-color: transparent;
+    color: #e6f1ff;
+}
+
+/* Email Class */
+.emailid {
+    font-size: 24px;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (25px) */
+#main {
+    margin-left: 25px
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
